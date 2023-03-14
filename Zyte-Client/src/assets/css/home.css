@@ -1,0 +1,33 @@
+.home-grid-3{
+    display: grid;
+    padding-top: 12px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;  
+
+}
+.w3{
+    object-fit:fill;
+    object-position: center;
+}
+.cover{
+    width: 100%;
+    overflow: hidden;  
+
+}
+.my-masonry-grid {
+    display: -webkit-box; /* Not needed if autoprefixing */
+    display: -ms-flexbox; /* Not needed if autoprefixing */
+    display: flex;
+    margin-left: -30px; /* gutter size offset */
+    width: auto;
+    margin: 12px;
+  }
+  
+.super-img:hover{
+    
+    opacity: 0.9;
+transform: scale(1.1);
+}
+.super-img{
+    transition: all .2s ease-in-out;
+}

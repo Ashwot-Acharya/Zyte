@@ -1,0 +1,23 @@
+*{
+    margin: 0 ;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav{
+    display:flex;
+        background-color: #cccc;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+.navi-comp{
+    display: flex;
+    gap: 10px;
+}
+.nav-button{
+    width: 100%;
+}
+.el-comps{
+    padding:12px;
+    
+    text-align: center;
+}

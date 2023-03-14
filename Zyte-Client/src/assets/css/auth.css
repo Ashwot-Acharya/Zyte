@@ -1,0 +1,66 @@
+.Login-form{
+    background-color: #ccc;
+    display: flex;
+    height: 100vh;
+}
+
+.myimg{
+height: 100vh;
+object-fit: cover;
+object-position: center;
+}
+
+.abs-post{
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    left: 50%;
+    transform: translate(-70% ,-50%);
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    left: 0;
+    z-index: 1;
+    background: rgba(0,0,0,0.5) ;
+    
+}
+.Login-Box{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(-50,-50);
+
+}
+.input-text{
+margin-bottom: 10px;
+padding: 5px;
+width: 200px;
+border: solid #000000 1px;
+border-radius: 5px;
+
+
+}
+.input-password{
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+    border: solid #000000 1px;
+
+}
+mybtn{
+
+align-content: center;
+
+}
+.Register-Box{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    transform: translate(-50,-50);
+}
+.mybtn{
+width: 200px;
+}
